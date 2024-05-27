@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/layout.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" type="text/css">
+    <script src="./script/jquery-3.3.1.min.js"></script>
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_top">
+                <h1>
+                    <a href="./index.html" title="로고">
+                        <img src="./image/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <nav class="top_nav">
+                    <ul>
+                        <li>
+                            <a href="#" title="홈" class="active">
+                                <span>
+                                    <i class="fa-solid fa-house"></i>
+                                </span>
+                                <span>
+                                    홈
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="검색">
+                                <span>
+                                    <i class="fa-solid fa-search"></i>
+                                </span>
+                                <span>
+                                    검색하기
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header_bottom">
+                <h2>
+                    <span class="library">
+                        <i class="fa-solid fa-book"></i>
+                            내 라이브러리
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-plus"></i>
+                    </span>
+                </h2>
+                <div class="scroll">
+                    <div class="box box1">
+                        <h3>첫 번째 플레이리스트를 만드세요.</h3>
+                        <p>어렵지 않아요. 저희가 도와드릴게요.</p>
+                        <button>플레이리스트 만들기</button>
+                    </div>
+                    <div class="box">
+                        <h3>팔로우할 팟캐스트를 찾아보세요.</h3>
+                        <p>새로운 에피소드에 대한 소식을 알려드릴게요.</p>
+                        <button>팟캐스트 둘러보기</button>
+                    </div>
+                </div>
+                <div class="subText">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#" title="법률정보">
+                                    법률 정보
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="안전 및 개인정보 보호 센터">
+                                    안전 및 개인정보 보호 센터
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="개인정보 처리방침">
+                                    개인정보 처리방침
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="접근성">
+                                    접근성
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p class="cookie">
+                        <a href="#" title="cookie">
+                            쿠키
+                        </a>
+                    </p>
+                    <button class="lang">
+                         <i class="fa-solid fa-globe"></i>
+                         <span>
+                            한국어
+                         </span>
+                    </button>
+                </div>
+
+            </div>
+        </header>
+        
+        <main>
+            <div class="fix_main">
+                    <div class="left">
+                        <button>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div> 
+                    <div class="right">
+                        <button class="signup">
+                            가입하기
+                        </button>
+                        <button class="login">
+                            로그인하기
+                        </button>
+                    </div>          
+            </div>
+            <div class="main_con">
+                    <div class="artist m_section">
+                            <h2>
+                                <a href="#" title="인기아티스트" class="t_section">
+                                    인기 아티스트
+                                </a>
+                            </h2>
+                            <p>
+                                <a href="#" title="모두표시" class="m_btn">
+                                    모두 표시
+                                </a>
+                            </p>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" title="newjeans">
+                                        <img src="./image/artist06.jpeg" alt="뉴진스">
+                                        <p>NewJeans</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="지코">
+                                        <img src="./image/artist03.jpeg" alt="지코">
+                                        <p>지코</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="아일릿">
+                                        <img src="./image/artist02.jpeg" alt="아일릿">
+                                        <p>ILLIT</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="르세라핌">
+                                        <img src="./image/artist04.jpeg" alt="르세라핌">
+                                        <p>LE SSERAFIM</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="에스파">
+                                        <img src="./image/artist07.jpeg" alt="에스파">
+                                        <p>aespa</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="아이유">
+                                        <img src="./image/artist05.jpeg" alt="아이유">
+                                        <p>아이유</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="테일러스위프트">
+                                        <img src="./image/artist08.jpeg" alt="테일러스위프트">
+                                        <p>Taylor Swift</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="아이브">
+                                        <img src="./image/artist09.jpeg" alt="아이브">
+                                        <p>IVE</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="riize">
+                                        <img src="./image/artist10.jpeg" alt="riize">
+                                        <p>RIIZE</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="album m_section">
+                            <h2>
+                                <a href="#" title="인기아티스트" class="t_section">
+                                    인기 앨범
+                                </a>
+                            </h2>
+                            <p>
+                                <a href="#" title="모두표시" class="m_btn">
+                                    모두 표시
+                                </a>
+                            </p>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" title="임영웅">
+                                        <img src="./image/album02.jpeg" alt="뉴진스">
+                                        <p>IM HERO</p>
+                                        <span>임영웅</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="정국">
+                                        <img src="./image/album01.jpeg" alt="지코">
+                                        <p>GOLDEN</p>
+                                        <span>정국</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="지민">
+                                        <img src="./image/album03.jpeg" alt="아일릿">
+                                        <p>FACE</p>
+                                        <span>지민</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="르세라핌">
+                                        <img src="./image/album04.jpeg" alt="르세라핌">
+                                        <p>LE SSERAFIM</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="v">
+                                        <img src="./image/album05.jpeg" alt="에스파">
+                                        <p>Layover</p>
+                                        <span>V</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="v">
+                                        <img src="./image/artist05.jpeg" alt="아이유">
+                                        <p>FRI(END)S</p>
+                                        <span>V</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="테일러스위프트">
+                                        <img src="./image/artist08.jpeg" alt="테일러스위프트">
+                                        <p>Taylor Swift</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="아이브">
+                                        <img src="./image/artist09.jpeg" alt="아이브">
+                                        <p>IVE</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="riize">
+                                        <img src="./image/artist10.jpeg" alt="riize">
+                                        <p>RIIZE</p>
+                                        <span>아티스트</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="radio m_section">
+                        <h2>
+                            <a href="#" title="인기아티스트" class="t_section">
+                                인기 라디오
+                            </a>
+                        </h2>
+                        <p>
+                            <a href="#" title="모두표시" class="m_btn">
+                                모두 표시
+                            </a>
+                        </p>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#" title="newjeans">
+                                    <img src="./image/radio01.jpeg" alt="뉴진스">
+                                    <p>NewJeans 라디오</p>
+                                    <span>LE SSERAFIM, IVE, NMIXX 외 
+                                        <br>다양한 아티스트와 함께  
+                                    </span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="지코">
+                                    <img src="./image/radio02.jpeg" alt="지코">
+                                    <p>NewJeans 라디오</p>
+                                    <span>LE SSERAFIM, IVE, NMIXX 외 
+                                        <br>다양한 아티스트와 함께  
+                                    </span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="아일릿">
+                                    <img src="./image/radio03.jpeg" alt="아일릿">
+                                    <p>NewJeans 라디오</p>
+                                    <span>LE SSERAFIM, IVE, NMIXX 외 
+                                        <br>다양한 아티스트와 함께  
+                                    </span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="르세라핌">
+                                    <img src="./image/radio04.jpeg" alt="르세라핌">
+                                    <p>NewJeans 라디오</p>
+                                    <span>LE SSERAFIM, IVE, NMIXX 외 
+                                        <br>다양한 아티스트와 함께  
+                                    </span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="에스파">
+                                    <img src="./image/radio05.jpeg" alt="에스파">
+                                    <p>NewJeans 라디오</p>
+                                    <span>LE SSERAFIM, IVE, NMIXX 외 
+                                        <br>다양한 아티스트와 함께  
+                                    </span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="아이유">
+                                    <img src="./image/artist05.jpeg" alt="아이유">
+                                    <p>아이유</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="테일러스위프트">
+                                    <img src="./image/artist08.jpeg" alt="테일러스위프트">
+                                    <p>Taylor Swift</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="아이브">
+                                    <img src="./image/artist09.jpeg" alt="아이브">
+                                    <p>IVE</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="riize">
+                                    <img src="./image/artist10.jpeg" alt="riize">
+                                    <p>RIIZE</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </div>
+                    <div class="chart m_section">
+                        <h2>
+                            <a href="#" title="인기아티스트" class="t_section">
+                                추천 차트
+                            </a>
+                        </h2>
+                        <p>
+                            <a href="#" title="모두표시" class="m_btn">
+                                모두 표시
+                            </a>
+                        </p>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#" title="임영웅">
+                                    <img src="./image/chart01.jpeg" alt="뉴진스">
+                                    <p>인기 곡 - 글로벌</p>
+                                    <span>현재 가장 많이 재생된 트랙의 주간 <br>
+                                    업데이트입니다 - 글로벌.</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="정국">
+                                    <img src="./image/chart02.jpeg" alt="지코">
+                                    <p>인기 곡 - 미국</p>
+                                    <span>현재 가장 많이 재생된 트랙의 주간 <br>
+                                    업데이트입니다 - 미국.</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="지민">
+                                    <img src="./image/chart03.jpeg" alt="아일릿">
+                                    <p>Top 50 - 글로벌</p>
+                                    <span>현재 가장 많이 재생된 트랙의 주간 <br>
+                                    업데이트입니다 - 글로벌.</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="르세라핌">
+                                    <img src="./image/chart04.jpeg" alt="르세라핌">
+                                    <p>Top 50 - 미국</p>
+                                    <span>현재 가장 많이 재생된 트랙의 주간 <br>
+                                    업데이트입니다 - 글로벌.</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="v">
+                                    <img src="./image/chart05.jpeg" alt="에스파">
+                                    <p>바이럴 50 - 글로벌</p>
+                                    <span>현재 가장 많이 재생된 트랙의 주간 <br>
+                                    업데이트입니다 - 글로벌.</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="v">
+                                    <img src="./image/artist05.jpeg" alt="아이유">
+                                    <p>FRI(END)S</p>
+                                    <span>V</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </div>
+                    <div class="playlist m_section">
+                        <h2>
+                            <a href="#" title="인기아티스트" class="t_section">
+                                Spotify 플레이리스트
+                            </a>
+                        </h2>
+                        <p>
+                            <a href="#" title="모두표시" class="m_btn">
+                                모두 표시
+                            </a>
+                        </p>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#" title="임영웅">
+                                    <img src="./image/list01.jpeg" alt="뉴진스">
+                                    <p>Viral Hits</p>
+                                    <span>Viral, trending and taking off</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="정국">
+                                    <img src="./image/list02.jpeg" alt="지코">
+                                    <p>Chillhop</p>
+                                    <span>Blissed out beats and head <br>
+                                    nodding grooves - Relax,</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>   
+                            <li>
+                                <a href="#" title="v">
+                                    <img src="./image/list05.jpeg" alt="에스파">
+                                    <p>Soft Pop Hits</p>
+                                    <span>Warm familiar pop you know <br>
+                                    and love. Cover:Adele</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="지민">
+                                    <img src="./image/list03.jpeg" alt="아일릿">
+                                    <p>Phonk</p>
+                                    <span>the beat of your drift</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="르세라핌">
+                                    <img src="./image/list04.jpeg" alt="르세라핌">
+                                    <p>Jazz in the Background</p>
+                                    <span>Soft instrumental Jazz of all <br>
+                                    your activities.</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" title="v">
+                                    <img src="./image/artist05.jpeg" alt="아이유">
+                                    <p>FRI(END)S</p>
+                                    <span>V</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="테일러스위프트">
+                                    <img src="./image/artist08.jpeg" alt="테일러스위프트">
+                                    <p>Taylor Swift</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="아이브">
+                                    <img src="./image/artist09.jpeg" alt="아이브">
+                                    <p>IVE</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="riize">
+                                    <img src="./image/artist10.jpeg" alt="riize">
+                                    <p>RIIZE</p>
+                                    <span>아티스트</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="bottom_menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                회사
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#" title="상세정보">
+                                            상세정보
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="채용정보">
+                                            채용 정보
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="fortherecord">
+                                            For the Record
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                커뮤니티
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#" title="아티스트">
+                                            아티스트
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="개발자">
+                                            개발자
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="투자자">
+                                            투자자
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="공급업체">
+                                            공급업체
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                유용한 링크
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#" title="지원">
+                                            지원
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Spotify 요금제
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#" title="프리미엄개인">
+                                            Premium 개인
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="프리미엄듀오">
+                                            Premium 듀오
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="sns">
+                        <a href="#" title="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" title="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" title="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="copyright">
+                        <i class="fa-regular fa-copyright"></i>
+                        2024 Spotify AB
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_text">
+                <p>
+                    Spotify 미리 듣기
+                </p>
+                좋아하는 국내 음악과 세계 최고의 플레이리스트를 들어보세요.
+            </div>
+            <button class="premium">
+                Premium 가입하기
+            </button>
+        </footer>
+    </div>
+</body>
+</html>
