@@ -37,10 +37,12 @@ main {
     width: calc(80% - 30px); /* 헤더와 메인 사이 간격과 오른쪽 마진 고려하여 너비 설정 */
     height: calc(100vh - 96px);
     overflow-x: hidden;
+    overflow-y: scroll;
     box-sizing: border-box;
     position: absolute; /* 메인을 고정 */
     left: calc(20% + 20px); /* 헤더의 너비와 간격을 고려하여 왼쪽 위치 설정 */
     margin-right: 10px; /* 오른쪽 마진 추가 */
+    /* background-image: url(../image/background.svg); */
 }
 footer {
     background-color: sandybrown;

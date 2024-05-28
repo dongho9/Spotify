@@ -1,3 +1,13 @@
+// $(document).ready(function(){
+//     $(window).on("scroll", function(){
+//         var nowScrollTop = $(window).scrollTop();
+//         if(nowScrollTop > 0){
+//             $('.fix_main').addClass('set');
+//         } else {
+//             $('.fix_main').removeClass('set');
+//         }
+//     });
+// });
 $(document).ready(function(){
     $('main').scroll(function(){
         var nowScrollTop = $(this).scrollTop();
