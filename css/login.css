@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    padding: 30px 0 30px 50px;
+    box-sizing: border-box;
+    background-color: #121212;
+}
+h1{
+    width: 117px;
+}
+h1 a img{
+    width: 100%;
+}
+main{
+    background: linear-gradient(rgba(26, 24, 24, 0.9)0%, rgb(0, 0, 0)100%);
+    padding: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+.login_section{
+    width: 734px;
+    height: 955px;
+    background-color: #121212;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.login_section h2{
+    font-size: 32px;
+    margin: 48px 0;
+}
+.sns_login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.sns_login button{
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 31px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.sns_login button:hover{
+    border: 1px solid #fff;
+}
+.googleicon{
+    background: url(../image/googleicon.svg) center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+.facebookicon{
+    background: url(../image/facebookicon.svg) center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+.appleicon{
+    background: url(../image/applogo.svg) center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+.con{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.login_form{
+    border-top: 1px solid #625f5f;
+    text-align: left;
+    width: 70%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.login_form div{
+    width: 70%;
+    margin: 0 auto;
+}
+.login_form p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.login_form input{
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline-color: #fff;
+    color: #fff;
+    text-indent: 15px;
+}
+label{
+    display: flex;
+    align-items: center;
+}
+.memory_check{
+    display: none;
+}
+
+.memory{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #ccc;
+    width: 40px;
+    text-indent: -99999px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+.memory::after{
+    content: "";
+    display: block;
+    background-color: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s ease;
+}
+.memory_check:checked ~ .memory{
+    background-color: #1ed760 !important;
+}
+.memory_check:checked ~ .memory::after{
+    left: 22px;
+}
+footer{
+    height: 80px;
+    background-color: #121212;
+}
