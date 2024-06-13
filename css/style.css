@@ -60,16 +60,30 @@ h1 a img{
     font-size: 22px;
     margin-right:14px;
 }
-.fa-plus{
+i.fa-plus{
     font-size: 18px;
-    transform: translateY(2px);
+    position: relative;
+}
+.plus{
+    display: block;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 34px;
+}
+.plus:hover{
+    background-color: rgb(34, 34, 34);
+}
+.plus:hover i.fa-plus{
+    color: #fff;
 }
 .header_bottom h2{
     padding: 0 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .header_bottom h2 span{
     color: #a7a7a7;
@@ -79,7 +93,7 @@ h1 a img{
     color: #fff !important;
 }
 .scroll_sec{
-    height: 168px;  
+    height: auto;
     padding: 10px;
     overflow: auto;
 }
@@ -117,7 +131,7 @@ h1 a img{
     flex-wrap: wrap;
 }
 .subText nav ul li{
-    margin-right: 20px;
+    margin-right: 18px;
     margin-bottom: 10px;
 }
 .subText nav ul li a{
@@ -340,7 +354,15 @@ i.fa-play{
         flex: 0 0 16.7%;
     }
     .main_con{
-        height: 225vh;
+        height: 230vh;
+    }
+}
+@media (max-width: 1917px) {
+    .m_section nav ul li {
+        flex: 0 0 16.7%;
+    }
+    .main_con{
+        height: 240vh;
     }
 }
 @media (max-width: 1801px) {
