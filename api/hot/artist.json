@@ -1,0 +1,65 @@
+[
+    {
+        "ArtistNo": 6,
+        "ArtistName": "NewJeans",
+        "RankNum": 1,
+        "LikeCnt": 47500,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist06.jpeg"
+    },
+    {
+        "ArtistNo": 3,
+        "ArtistName": "지코",
+        "RankNum": 2,
+        "LikeCnt": 41458,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist03.jpeg"
+    },
+    {
+        "ArtistNo": 2,
+        "ArtistName": "ILLIT",
+        "RankNum": 3,
+        "LikeCnt": 37810,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist02.jpeg"
+    },
+    {
+        "ArtistNo": 4,
+        "ArtistName": "르세라핌",
+        "RankNum": 4,
+        "LikeCnt": 32335,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist04.jpeg"
+    },
+    {
+        "ArtistNo": 7,
+        "ArtistName": "에스파",
+        "RankNum": 5,
+        "LikeCnt": 28800,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist07.jpeg"
+    },
+    {
+        "ArtistNo": 5,
+        "ArtistName": "아이유",
+        "RankNum": 6,
+        "LikeCnt": 23641,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist05.jpeg"
+    },
+    {
+        "ArtistNo": 8,
+        "ArtistName": "테일러스위프트",
+        "RankNum": 7,
+        "LikeCnt": 21111,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist08.jpeg"
+    },
+    {
+        "ArtistNo": 9,
+        "ArtistName": "아이브",
+        "RankNum": 8,
+        "LikeCnt": 19890,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist09.jpeg"
+    },
+    {
+        "ArtistNo": 10,
+        "ArtistName": "RIIZE",
+        "RankNum": 9,
+        "LikeCnt": 17654,
+        "Picture": "https://dongho9.github.io/Spotify/image/artist10.jpeg"
+    }
+]

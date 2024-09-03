@@ -1,0 +1,38 @@
+[
+    {
+        "ChartNo": 1,
+        "Title": "인기 곡 - 글로벌",
+        "Desc": "현재 가장 많이 재생된 트랙의 주간 업데이트입니다 - 글로벌",
+        "Picture": "https://dongho9.github.io/Spotify/image/chart01.jpeg"
+    },
+    {
+        "ChartNo": 2,
+        "Title": "인기 곡 - 미국",
+        "Desc": "현재 가장 많이 재생된 트랙의 주간 업데이트입니다 - 미국",
+        "Picture": "https://dongho9.github.io/Spotify/image/chart02.jpeg"
+    },
+    {
+        "ChartNo": 3,
+        "Title": "Top 50 - 글로벌",
+        "Desc": "현재 가장 많이 재생된 트랙의 주간 업데이트입니다 - 글로벌",
+        "Picture": "https://dongho9.github.io/Spotify/image/chart03.jpeg"
+    },
+    {
+        "ChartNo": 4,
+        "Title": "Top 50 - 미국",
+        "Desc": "현재 가장 많이 재생된 트랙의 주간 업데이트입니다 - 미국",
+        "Picture": "https://dongho9.github.io/Spotify/image/chart04.jpeg"
+    },
+    {
+        "ChartNo": 5,
+        "Title": "바이럴 50 - 글로벌",
+        "Desc": "현재 가장 많이 재생된 트랙의 주간 업데이트입니다 - 글로벌",
+        "Picture": "https://dongho9.github.io/Spotify/image/chart05.jpeg"
+    },
+    {
+        "ChartNo": 6,
+        "Title": "바이럴 50 - 미국",
+        "Desc": "현재 가장 많이 재생된 트랙의 주간 업데이트입니다 - 미국",
+        "Picture": "https://dongho9.github.io/Spotify/image/chart06.jpeg"
+    }
+]

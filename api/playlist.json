@@ -1,0 +1,50 @@
+[
+    {
+        "PlaylistNo": 1,
+        "Title": "Viral Hits",
+        "Desc": "Viral, trending and taking off",
+        "Picture": "https://dongho9.github.io/Spotify/image/list01.jpeg"
+    }, 
+    {
+        "PlaylistNo": 2,
+        "Title": "Chillhop",
+        "Desc": "Blissed out beats and head odding grooves - Relax,",
+        "Picture": "https://dongho9.github.io/Spotify/image/list02.jpeg"
+    }, 
+    {
+        "PlaylistNo": 5,
+        "Title": "Soft Pop Hits",
+        "Desc": "Warm familiar pop you know and love. Cover:Adele",
+        "Picture": "https://dongho9.github.io/Spotify/image/list05.jpeg"
+    },
+    {
+        "PlaylistNo": 3,
+        "Title": "Phonk",
+        "Desc": "the beat of your drift",
+        "Picture": "https://dongho9.github.io/Spotify/image/list03.jpeg"
+    },
+    {
+        "PlaylistNo": 4,
+        "Title": "Jazz in the Background",
+        "Desc": "Soft instrumental Jazz of all your activities.",
+        "Picture": "https://dongho9.github.io/Spotify/image/list04.jpeg"
+    },
+    {
+        "PlaylistNo": 12,
+        "Title": "Indie Rock Hits",
+        "Desc": "True indie rock hits. Cover: Phoebe Bridgers",
+        "Picture": "https://dongho9.github.io/Spotify/image/list01.jpeg"
+    },
+    {
+        "PlaylistNo": 8,
+        "Title": "Stress Relief",
+        "Desc": "Calm your mind from anxiety with gentle piano and",
+        "Picture": "https://dongho9.github.io/Spotify/image/artist08.jpeg"
+    },
+    {
+        "PlaylistNo": 8,
+        "Title": "Rock Classics",
+        "Desc": "Rock legends &amp; epic songs that continue to inspire",
+        "Picture": "https://dongho9.github.io/Spotify/image/artist10.jpeg"
+    }
+]

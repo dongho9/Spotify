@@ -1,0 +1,58 @@
+[
+    {
+        "AlbumNo": 2,
+        "ArtistNo": 10,
+        "ArtistName": "임영웅",
+        "Title": "IM HERO",
+        "Poster": "https://dongho9.github.io/Spotify/image/album02.jpeg"
+    },
+    {
+        "AlbumNo": 1,
+        "ArtistNo": 11,
+        "ArtistName": "정국",
+        "Title": "GOLDEN",
+        "Poster": "https://dongho9.github.io/Spotify/image/album01.jpeg"
+    },
+    {
+        "AlbumNo": 1,
+        "ArtistNo": 12,
+        "ArtistName": "지민",
+        "Title": "FACE",
+        "Poster": "https://dongho9.github.io/Spotify/image/album03.jpeg"
+    },
+    {
+        "AlbumNo": 4,
+        "ArtistNo": 4,
+        "ArtistName": "르세라핌",
+        "Title": "Layover",
+        "Poster": "https://dongho9.github.io/Spotify/image/album04.jpeg"
+    },
+    {
+        "AlbumNo": 5,
+        "ArtistNo": 7,
+        "ArtistName": "에스파",
+        "Title": "FRI(END)S",
+        "Poster": "https://dongho9.github.io/Spotify/image/album05.jpeg"
+    },
+    {
+        "AlbumNo": 6,
+        "ArtistNo": 2,
+        "ArtistName": "ILLIT",
+        "Title": "SUPER REAL ME",
+        "Poster": "https://dongho9.github.io/Spotify/image/album06.jpeg"
+    },
+    {
+        "AlbumNo": 7,
+        "ArtistNo": 8,
+        "ArtistName": "테일러스위프트",
+        "Title": "Do or Die",
+        "Poster": "https://dongho9.github.io/Spotify/image/album07.jpeg"
+    },
+    {
+        "AlbumNo": 10,
+        "ArtistNo": 6,
+        "ArtistName": "NewJeans",
+        "Title": "How Sweet",
+        "Poster": "https://dongho9.github.io/Spotify/image/album10.jpeg"
+    }
+]
