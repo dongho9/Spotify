@@ -3,63 +3,63 @@
         "RadioNo": 1,
         "RadioDj": "ILLIT",
         "Title": "ILLIT 라디오",
-        "Desc": "KISS OF LIFE, YOUNG POSSE, 투어스",
+        "Desc": "KISS OF LIFE, YOUNG POSSE, 투어스 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio01.jpeg"
     },
     {
         "RadioNo": 2,
         "RadioDj": "NewJeans",
         "Title": "NewJeans 라디오",
-        "Desc": "LE SSERAFIM, IVE, NMIXX",
+        "Desc": "LE SSERAFIM, IVE, NMIXX 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio02.jpeg"
     },
     {
         "RadioNo": 3,
         "RadioDj": "서동현",
         "Title": "서동현 라디오",
-        "Desc": "TOIL, TRADE L, Leellamarz",
+        "Desc": "TOIL, TRADE L, Leellamarz 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio03.jpeg"
     },
     {
         "RadioNo": 4,
         "RadioDj": "KISS OF LIFE",
         "Title": "KISS OF LIFE 라디오",
-        "Desc": "tripleS, 수진, YOUNG POSSE",
+        "Desc": "tripleS, 수진, YOUNG POSSE 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio04.jpeg"
     },
     {
         "RadioNo": 5,
         "RadioDj": "aespa",
         "Title": "aespa 라디오",
-        "Desc": "NMIXX, IVE, GOT the beat",
+        "Desc": "NMIXX, IVE, GOT the beat 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio05.jpeg"
     },
     {
         "RadioNo": 6,
         "RadioDj": "아이유",
         "Title": "아이유 라디오",
-        "Desc": "태연, 볼빨간사춘기, AKMU",
+        "Desc": "태연, 볼빨간사춘기, AKMU 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio06.jpeg"
     },
     {
         "RadioNo": 7,
         "RadioDj": "10CM",
         "Title": "10CM 라디오",
-        "Desc": "스탠딩 에그, 어반자카파, 멜로망스",
+        "Desc": "스탠딩 에그, 어반자카파, 멜로망스 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio07.jpeg"
     },
     {
         "RadioNo": 8,
         "RadioDj": "잔나비",
         "Title": "잔나비 라디오",
-        "Desc": "카더가든, 검정치마, 너드커넥션",
+        "Desc": "카더가든, 검정치마, 너드커넥션 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio08.jpeg"
     },
     {
         "RadioNo": 9,
         "RadioDj": "RIIZE",
         "Title": "RIIZE 라디오",
-        "Desc": "NCT WISH, BOYNEXTDOOR, 투어스",
+        "Desc": "NCT WISH, BOYNEXTDOOR, 투어스 외 다양한 아티스트와 함께",
         "Picture": "https://dongho9.github.io/Spotify/image/radio09.jpeg"
     }
 ]
